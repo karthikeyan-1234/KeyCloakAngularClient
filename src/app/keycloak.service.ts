@@ -67,7 +67,7 @@ export class KeycloakService {
 
   isLoggedIn(): boolean | undefined {
     if (!this.initialized) {
-      console.error('KeycloakService [isLogged]: Keycloak is not initialized.');
+      console.error('KeycloakService [isLoggedIn]: Keycloak is not initialized.');
       return false;
     }
     return this.keycloak.authenticated;

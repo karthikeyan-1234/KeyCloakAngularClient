@@ -25,7 +25,6 @@ export class EmployeeListComponent implements OnInit {
 
 
     if(this.keycloakService.isLoggedIn()) {
-
     }
 
 
